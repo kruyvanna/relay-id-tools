@@ -1,14 +1,14 @@
 {
-  "name": "relay-id-tools",
-  "version": "0.0.1",
-  "description": "Tools to extract base64 encoded relay id",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "kruyvanna",
-  "license": "ISC",
-  "dependencies": {
-    "atob": "^2.1.0"
-  }
+	"name": "relay-id-tools",
+	"version": "0.0.2",
+	"description": "Tools to extract base64 encoded relay id",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "kruyvanna",
+	"license": "ISC",
+	"dependencies": {
+		"atob": "^2.1.0"
+	}
 }
