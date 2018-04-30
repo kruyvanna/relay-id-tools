@@ -1,6 +1,6 @@
 {
 	"name": "relay-id-tools",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description": "Tools to extract base64 encoded relay id",
 	"main": "index.js",
 	"scripts": {

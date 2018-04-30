@@ -1,4 +1,4 @@
-const { Base64 } = require('./Base64')
+const { Base64 } = require('./base64')
 
 const fromGlobalId = id => {
 	let rawToken = Base64.atob(id)
