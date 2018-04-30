@@ -8,7 +8,5 @@
 	},
 	"author": "kruyvanna",
 	"license": "ISC",
-	"dependencies": {
-		"atob": "^2.1.0"
-	}
+	"dependencies": {}
 }

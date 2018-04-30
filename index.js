@@ -1,17 +1,8 @@
-var isNode = false
-
-if (typeof module !== 'undefined' && module.exports) {
-	isNode = true
-}
+const { Base64 } = require('./Base64')
 
 const fromGlobalId = id => {
-	let rawToken = ''
-	if (isNode) {
-		const atob = require('atob')
-		rawToken = atob(id)
-	} else {
-		rawToken = atob(id)
-	}
+	let rawToken = Base64.atob(id)
+
 	const tokens = rawToken.split(':')
 	const output = {
 		type: tokens[0],
